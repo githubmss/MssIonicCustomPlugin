@@ -1,0 +1,33 @@
+<ion-view hide-nav-bar="true" class="home-full"> <ion-content
+	class="has-header">
+<div class="row inner-rows">
+	<div class="col">
+		<div class="video-title">
+			<ul>
+				<li ng-repeat="item in team" ng-click="playVideo(item.name)">
+					<h2>
+						<h2>
+							{{item.name}}<br>Nov 5, 2015<br>0.:33PM
+						</h2>
+					</h2>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+</ion-content>
+  <div class="list">
+	<label class="item item-input"> <span class="input-label">Message:
+	</span> <input type="text" ng-model="newMessage">
+	</label>
+</div>
+<div class="bar bar-footer bar-balanced bar-vid">
+	<a class="button button-block button-full" ng-click="StartVideo()">VIDEO</a>
+</div>
+</ion-view>
+
+
+
+
+
+

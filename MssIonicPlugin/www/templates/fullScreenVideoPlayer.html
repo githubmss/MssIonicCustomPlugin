@@ -1,0 +1,86 @@
+<ion-view view-title="Poem" hide-nav-bar="true"> <ion-content>
+<div class="modal transparent fullscreen-player">
+	<video id="myvideo" width="100%" height="500px" class="centerme"
+		controls="controls" autoplay poster="{{bg}}">
+    <source src="{{scopeSRC}}" type="video/mp4">
+  </video>
+  <div class="progressTime">
+		<button id="snap" ng-click="snap()">Take screenshot</button>
+	</div>
+  <div class="control">
+		<a href="#" class="play-btns" ng-click='btnPlay()'><img
+			src="img/play-icon.png"></a> <a href="#" class="play-btned"
+			ng-click='btnPause()'><img src="img/pause.png"></a> <a href="#"
+			class="played-btns" ng-click='btnStop()'><img src="img/stop.png"></a>
+    <a href="#" class="rw" ng-click='backWord()'><img
+			src="img/backward.png"></a> <a href="#" class="ff"
+			ng-click='forword()'><img src="img/forward.png"></a>
+  </div>
+  <canvas width="50" height="50" ></canvas>
+	<div id="screenShots"></div>
+</div>
+</ion-content> </ion-view>
+<style>
+.play-btns img {
+	width: 100px;
+}
+
+.played-btns img {
+	width: 30px;
+}
+
+.played-btns {
+	left: -24px;
+	position: relative;
+	top: 13px;
+	float: left;
+}
+
+.play-btns {
+	float: left;
+	left: 0;
+	margin-top: 0;
+	position: relative;
+	top: 1px;
+}
+
+.ff {
+	float: left;
+	left: -2px;
+	position: relative;
+	top: 12px;
+}
+
+.ff img {
+	width: 32px;
+}
+
+.rw {
+	float: left;
+	position: relative;
+	top: 12px;
+	left: -12px;
+}
+
+.rw img {
+	width: 30px;
+}
+
+.control {
+	display: inline-block;
+	margin: 0 auto 0 16%;
+	text-align: center;
+	width: 100%;
+}
+
+.play-btned>img {
+	width: 30px;
+}
+
+.play-btned {
+	float: left;
+	left: -31px;
+	position: relative;
+	top: 13px;
+}
+</style>

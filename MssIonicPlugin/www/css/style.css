@@ -1,0 +1,66 @@
+/* Empty. Add your own CSS if you like */
+.bar.bar-footer.bar-vid {
+    background: #fff;
+    border-top: 1px solid #ccc;
+    text-align: center;
+}
+
+.bar.bar-footer.bar-vid  button.button-block {
+    background: none;
+}
+
+.bar-balanced.bar-vid .button {
+    background: none;
+    border: none;
+    color: #000;
+    display: inline-block;
+    width: 50%;
+    margin-top: 1px;
+}
+
+/*kamal css start here*/
+
+.video-title li {
+  background: none repeat scroll 0 0 #444444;
+  border-radius: 5px;
+  display: inline-block;
+  margin-bottom: 7px;
+  margin-right: 7px;
+  min-height: 90px;
+  padding: 8px;
+  text-align: center;
+  width: 31%;
+  vertical-align: top;
+}
+.video-title li h2 {
+  color: #a0a0a0;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 15px;
+  margin: 0;
+  padding-top: 14px;
+}
+.video-title li:nth-child(3n){
+	margin-right: 0px;	
+}
+.row.inner-rows{
+	padding: 3px 0 0 0;
+}
+label.item.item-input {
+  padding-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
